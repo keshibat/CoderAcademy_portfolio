@@ -29,7 +29,7 @@ html {
 }
 
 span {
-    color: #54D17A;
+    color: #E31B6D;
 }
 
 label {
@@ -75,8 +75,6 @@ header {
 }
 
 
-
-
 .text {
     margin: 70px 0 20px 0;
     font-size: 16px;
@@ -87,6 +85,29 @@ header {
     font-size: 8px;
   }
 
+
+section {
+    padding: 70px 0 70px 0;
+    color: #616161;
+    line-height: 11pt;
+    position: relative;
+}
+
+
+
+
+footer .icon-wrap .icon {
+    overflow: hidden;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    text-align: center;
+    margin: 0 15px;
+    background: #262F38;
+    font-size: 18pt;
+}
 
 
 

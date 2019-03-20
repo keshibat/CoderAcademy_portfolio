@@ -42,7 +42,14 @@ ul li a {
     color: #fff;
     font-size: 30px;
     display: none;
+}
 
+
+section {
+    padding: 70px 0 70px 0;
+    color: #616161;
+    line-height: 11pt;
+    position: relative;
 }
 
 @media (max-width: 768px)
@@ -66,27 +73,6 @@ ul li a {
 }
 
 
-
-
-/*.nav {
-    border-bottom: 1px solid #EAEAEB;
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-}
-
-.menu {
-    margin: 0 30px 0 0;
-}
-
-.menu a {
-    text-decoration: none;
-    color: gray;
-    margin: 0 10px;
-    line-height: 70px;
-
-}*/
-
 span {
     color: #E31B6D;
 }
@@ -97,6 +83,9 @@ label {
     line-height: 70px;
     display: none;
 }
+
+
+
 
 #toggle {
     display: none;
@@ -122,9 +111,7 @@ label {
     }
 }
 
-/*header {
-    background-color: blue;
-}*/
+
 
 .flex {
     display: flex;
@@ -143,30 +130,32 @@ label {
   .text {
     font-size: 8px;
   }
-
-
-section {
-    padding: 70px 0 70px 0;
-    color: #616161;
-    line-height: 11pt;
-    position: relative;
 }
 
 
 
+footer {
+    width: 100%;
+    background: #262626;
+}
 
-footer .icon-wrap .icon {
-    overflow: hidden;
-    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
-    cursor: pointer;
-    width: 55px;
-    height: 55px;
-    position: relative;
+
+
+footer .footnote {
     text-align: center;
-    margin: 0 15px;
-    background: #262F38;
-    font-size: 18pt;
+    font-size: 10pt;
+    color: #8F9AA7;
+    margin-top: 35px;
+    opacity: 0.6;
 }
+
+footer .footnote .highlight {
+    font-family: 'Open Sans';
+    color: #E31B6D;
+
+
+
+
 
 
 

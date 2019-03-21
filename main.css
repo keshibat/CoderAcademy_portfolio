@@ -141,6 +141,27 @@ footer {
 
 
 
+.container{
+  margin-top: 1em;
+  text-align: center;
+}
+/* All Icons*/
+.container .fa{
+  font-size: 2em;
+  padding: 1em;
+  color: #fff;
+}
+.container .fa-linkedin-square{
+  text-shadow: 1.5px 3px #04C2C9;
+}
+.container .fa-twitter{
+  text-shadow: 1.5px 1.5px 8px #04C2C9;
+}
+.container .fa-github{
+  text-shadow: -3.5px 4px 1px #04C2C9, -1.5px 2.5px #04C2C9;
+}
+
+
 footer .footnote {
     text-align: center;
     font-size: 10pt;

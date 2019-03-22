@@ -142,7 +142,7 @@ label {
 /*About section*/
 
 #about {
-    background-color: #cccccc;
+    /*background-color: #cccccc;*/
 
 }
 
@@ -178,6 +178,7 @@ label {
 /*Project Section*/
 
 #project {
+    /*background-color: #accccc;*/
 
 }
 .project {
@@ -191,6 +192,7 @@ label {
 
 /*Blog Section*/
 #blog {
+    /*background-color: #bccccc;*/
 
 }
 .blog {
@@ -206,8 +208,14 @@ label {
 
 
 /*Contact*/
-#contact {
-    background-image: url(images/raglan_roast.jpg)
+#contact table, th, td {
+    border: 1px solid black;
+    margin: 2px;
+    background-color: #262626;
+    font-family: 'Open Sans';
+    color: #04C2C9;
+
+    /*background-image: url(images/raglan_roast.jpg)*/
 }
 
 

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
+
 body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "helvetica neue, sans-selif"
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -20,16 +22,17 @@ ul {
 ul li {
     list-style: none;
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
 }
 
 ul li:hover {
-    background-color: #e91e63;
+    background-color: #E31B6D;
 }
 
 ul li a {
     color: #fff;
     text-decoration: none;
+    text-align:
 }
 
 
@@ -47,9 +50,11 @@ ul li a {
 
 section {
     padding: 70px 0 70px 0;
+    background-color: white;
     color: #616161;
     line-height: 11pt;
     position: relative;
+
 }
 
 @media (max-width: 768px)
@@ -74,7 +79,8 @@ section {
 
 
 span {
-    color: #E31B6D;
+    /*color: #04C2C9;*/
+    color: white;
 }
 
 label {
@@ -138,6 +144,18 @@ label {
   }
 }
 
+/*Home seciton*/
+
+#home {
+    background-color: rgb(150,161,168);
+}
+
+.text h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    line-height:1.4em;
+}
+
 
 /*About section*/
 
@@ -159,6 +177,7 @@ label {
 
 #about_description {
 
+
 }
 
 #about_description p{
@@ -178,6 +197,7 @@ label {
 /*Project Section*/
 
 #project {
+    background-color: rgb(150,161,168);
     /*background-color: #accccc;*/
 
 }
@@ -186,6 +206,17 @@ label {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+#project1 {
+
+
+
+
+}
+
+
+
 
 
 
@@ -208,6 +239,9 @@ label {
 
 
 /*Contact*/
+#contact {
+    background-color: rgb(150,161,168);
+}
 #contact table, th, td {
     border: 1px solid black;
     margin: 2px;

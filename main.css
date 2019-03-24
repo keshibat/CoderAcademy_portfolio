@@ -49,11 +49,11 @@ ul li a {
 
 
 section {
-    padding: 70px 0 70px 0;
-    background-color: white;
+    padding: 80px 0 70px 0;
     color: #616161;
     line-height: 11pt;
     position: relative;
+
 
 }
 
@@ -144,6 +144,9 @@ label {
   }
 }
 
+
+
+
 /*Home seciton*/
 
 #home {
@@ -160,6 +163,11 @@ label {
 /*About section*/
 
 #about {
+    background-color: #262626;
+    /*background-image: url(images/raglan_roast.jpg)*/
+
+
+
     /*background-color: #cccccc;*/
 
 }
@@ -175,13 +183,20 @@ label {
 
 }
 
-#about_description {
+#about_description p {
+    color: white;
+}
+#about_description span {
+    color: #E31B6D;
+
+
 
 
 }
 
 #about_description p{
     line-height: 1.6;
+    text-align: left;
 
 }
 
@@ -223,13 +238,22 @@ label {
 
 /*Blog Section*/
 #blog {
+
+    /*background-image: url(images/raglan_roast.jpg);*/
+    /*opacity: 0.6;*/
     /*background-color: #bccccc;*/
+    background-color: #262626;
 
 }
 .blog {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.blog img {
+    background-color: none;
+
 }
 
 
@@ -240,8 +264,15 @@ label {
 
 /*Contact*/
 #contact {
-    background-color: rgb(150,161,168);
+    background-color: #262626;
+
 }
+
+
+#contact h2 {
+    color: rgb(150,161,168);
+}
+
 #contact table, th, td {
     border: 1px solid black;
     margin: 2px;

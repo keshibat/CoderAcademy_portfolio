@@ -22,22 +22,30 @@ A great way to do this is to design, develop and deploy a website that showcases
 * Social icon
 
 
-#### Screenshots
-
-[Imgur](https://i.imgur.com/pcmXFbF.jpg)
-[Imgur](https://i.imgur.com/OFMtAHa.jpg)
-[Imgur](https://i.imgur.com/1Dp1FL8.jpg)
-[Imgur](https://i.imgur.com/bNOCJ7D.jpg)
-
-
-
-
 #### Target audience
 Any potential future employers, other developers who may be looking for inspiration to create their own portfolio website.
 
-
-
 ## Wireframes
+
+* home
+![Imgur](https://i.imgur.com/pcmXFbF.jpg)
+* about
+![Imgur](https://i.imgur.com/OFMtAHa.jpg)
+* project
+![Imgur](https://i.imgur.com/1Dp1FL8.jpg)
+* blog
+* contact
+
+![Imgur](https://i.imgur.com/bNOCJ7D.jpg)
+
+
+## Trello
+![Imgur](https://i.imgur.com/Bv4vntV.png)
+
+
+
+
+
 
 
 
